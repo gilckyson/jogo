@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Digitação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Teste sua Digitação!</h1>
+        <div class="display-container">
+            <div class="display-item">Tempo: <span id="timeLeft">10</span>s</div>
+            <div class="display-item">Pontos: <span id="score">0</span></div>
+        </div>
+        
+        <div id="wordDisplay"></div>
+        <input type="text" id="typingInput" autocomplete="off" autofocus>
+        
+        <div id="statusMessage"></div>
+        <button id="startButton">Começar</button>
+    </div>
+    
+    <script src="java.js"></script>
+</body>
+</html>
